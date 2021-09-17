@@ -1,4 +1,4 @@
-package javafoundation.section_0;
+package javafoundation.section_1;
 
 public class TestDog {
     public static void main(String[] args) {

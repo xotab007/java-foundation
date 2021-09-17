@@ -1,4 +1,4 @@
-package javafoundation.section_0;
+package javafoundation.section_1;
 
 public class Dog {
     private String name;
