@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>javafoundation.section_3</OriginalElement>
+  <nodes>
+    <node x="785.9583333333334" y="0.0">javafoundation.section_3.Movable</node>
+    <node x="759.3556910569105" y="184.0">javafoundation.section_3.MovablePoint</node>
+    <node x="594.0" y="558.0">javafoundation.section_3.MovableCircle</node>
+    <node x="267.7540650406504" y="173.0">javafoundation.section_3.Shape</node>
+    <node x="0.0" y="514.0">javafoundation.section_3.Rectangle</node>
+    <node x="33.0" y="865.0">javafoundation.section_3.Square</node>
+    <node x="870.0" y="558.0">javafoundation.section_3.MovableRectangle</node>
+    <node x="334.0" y="547.0">javafoundation.section_3.Circle</node>
+    <node x="565.2540650406504" y="931.0">javafoundation.section_3.TestShape</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="javafoundation.section_3.MovableCircle" target="javafoundation.section_3.Movable" relationship="REALIZATION">
+      <point x="-82.12070209537706" y="-105.38546943414133" />
+      <point x="639.879297904623" y="477.2911816144564" />
+      <point x="666.4817073170733" y="477.2911816144564" />
+      <point x="666.4817073170733" y="147.0" />
+      <point x="863.9583333333334" y="147.0" />
+      <point x="0.0" y="60.5" />
+    </edge>
+    <edge source="javafoundation.section_3.TestShape" target="javafoundation.section_3.MovablePoint" relationship="CREATE">
+      <point x="41.0" y="-39.0" />
+      <point x="688.2540650406504" y="844.0" />
+      <point x="716.5040650406504" y="844.0" />
+      <point x="716.5040650406504" y="834.0" />
+      <point x="1186.5" y="834.0" />
+      <point x="1186.5" y="482.0" />
+      <point x="977.0" y="482.0" />
+      <point x="977.0" y="472.0" />
+      <point x="932.6056910569105" y="472.0" />
+      <point x="57.75" y="127.5" />
+    </edge>
+    <edge source="javafoundation.section_3.MovableCircle" target="javafoundation.section_3.MovablePoint" relationship="CREATE">
+      <point x="85.33333333333337" y="-105.5" />
+      <point x="807.3333333333334" y="482.0" />
+      <point x="977.0" y="482.0" />
+      <point x="977.0" y="472.0" />
+      <point x="932.6056910569105" y="472.0" />
+      <point x="57.75" y="127.5" />
+    </edge>
+    <edge source="javafoundation.section_3.MovableRectangle" target="javafoundation.section_3.MovablePoint" relationship="TO_ONE">
+      <point x="-102.0" y="-105.5" />
+      <point x="921.0" y="492.0" />
+      <point x="763.3201219512196" y="492.0" />
+      <point x="763.3201219512196" y="472.0" />
+      <point x="817.1056910569105" y="472.0" />
+      <point x="-57.75" y="127.5" />
+    </edge>
+    <edge source="javafoundation.section_3.MovableRectangle" target="javafoundation.section_3.Movable" relationship="REALIZATION">
+      <point x="102.0" y="-105.5" />
+      <point x="1125.0" y="472.0" />
+      <point x="1218.02337398374" y="472.0" />
+      <point x="1218.02337398374" y="147.0" />
+      <point x="863.9583333333334" y="147.0" />
+      <point x="0.0" y="60.5" />
+    </edge>
+    <edge source="javafoundation.section_3.TestShape" target="javafoundation.section_3.MovableCircle" relationship="CREATE">
+      <point x="41.0" y="-39.0" />
+      <point x="688.2540650406504" y="844.0" />
+      <point x="716.5040650406504" y="844.0" />
+      <point x="716.5040650406504" y="834.0" />
+      <point x="722.0" y="834.0" />
+      <point x="0.0" y="105.5" />
+    </edge>
+    <edge source="javafoundation.section_3.TestShape" target="javafoundation.section_3.Shape" relationship="DEPENDENCY">
+      <point x="-41.0" y="-39.0" />
+      <point x="606.2540650406504" y="844.0" />
+      <point x="583.5" y="844.0" />
+      <point x="583.5" y="482.0" />
+      <point x="413.2540650406504" y="482.0" />
+      <point x="48.5" y="138.5" />
+    </edge>
+    <edge source="javafoundation.section_3.Square" target="javafoundation.section_3.Rectangle" relationship="GENERALIZATION">
+      <point x="0.0" y="-105.0" />
+      <point x="0.0" y="149.5" />
+    </edge>
+    <edge source="javafoundation.section_3.Rectangle" target="javafoundation.section_3.Shape" relationship="GENERALIZATION">
+      <point x="0.0" y="-149.5" />
+      <point x="157.0" y="492.0" />
+      <point x="299.7540650406504" y="492.0" />
+      <point x="299.7540650406504" y="482.0" />
+      <point x="316.2540650406504" y="482.0" />
+      <point x="-48.5" y="138.5" />
+    </edge>
+    <edge source="javafoundation.section_3.MovablePoint" target="javafoundation.section_3.Movable" relationship="REALIZATION">
+      <point x="0.0" y="-127.5" />
+      <point x="874.8556910569105" y="147.0" />
+      <point x="863.9583333333334" y="147.0" />
+      <point x="0.0" y="60.5" />
+    </edge>
+    <edge source="javafoundation.section_3.MovableRectangle" target="javafoundation.section_3.MovablePoint" relationship="CREATE">
+      <point x="0.0" y="-105.5" />
+      <point x="1023.0" y="482.0" />
+      <point x="977.0" y="482.0" />
+      <point x="977.0" y="472.0" />
+      <point x="932.6056910569105" y="472.0" />
+      <point x="57.75" y="127.5" />
+    </edge>
+    <edge source="javafoundation.section_3.Circle" target="javafoundation.section_3.Shape" relationship="GENERALIZATION">
+      <point x="0.0" y="-116.5" />
+      <point x="453.5" y="492.0" />
+      <point x="299.7540650406504" y="492.0" />
+      <point x="299.7540650406504" y="482.0" />
+      <point x="316.2540650406504" y="482.0" />
+      <point x="-48.5" y="138.5" />
+    </edge>
+    <edge source="javafoundation.section_3.MovableCircle" target="javafoundation.section_3.MovablePoint" relationship="TO_ONE">
+      <point x="0.0" y="-105.5" />
+      <point x="722.0" y="492.0" />
+      <point x="763.3201219512196" y="492.0" />
+      <point x="763.3201219512196" y="472.0" />
+      <point x="817.1056910569105" y="472.0" />
+      <point x="-57.75" y="127.5" />
+    </edge>
+    <edge source="javafoundation.section_3.TestShape" target="javafoundation.section_3.Circle" relationship="CREATE">
+      <point x="41.0" y="-39.0" />
+      <point x="688.2540650406504" y="844.0" />
+      <point x="716.5040650406504" y="844.0" />
+      <point x="716.5040650406504" y="834.0" />
+      <point x="453.5" y="834.0" />
+      <point x="0.0" y="116.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="2.719457059807972" showDependencies="true" x="706.0689806395694" y="511.41403219175754" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
