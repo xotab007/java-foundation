@@ -36,7 +36,7 @@ public class Display extends JFrame {
             x++;
             LastScorer.setText("Last Scorer: AC Milan");
             Result.setText("              Result: " + String.valueOf(x) + " X " + String.valueOf(y));
-            WhoWinner(x,y);
+            WhoWinner(x, y);
         }
     }
 
@@ -45,22 +45,18 @@ public class Display extends JFrame {
             y++;
             LastScorer.setText("Last Scorer: Real Madrid");
             Result.setText("              Result: " + String.valueOf(x) + " X " + String.valueOf(y));
-            WhoWinner(x,y);
+            WhoWinner(x, y);
         }
     }
 
-    public void WhoWinner (int x,int y)
-    {
-        if (x>y)
-        {
+    public void WhoWinner(int x, int y) {
+        if (x > y) {
             Winner.setText("Winner: AC Milan");
         }
-        if (x<y)
-        {
+        if (x < y) {
             Winner.setText("Winner: Real Madrid");
         }
-        if (x==y)
-        {
+        if (x == y) {
             Winner.setText("Winner: DRAW");
         }
     }
